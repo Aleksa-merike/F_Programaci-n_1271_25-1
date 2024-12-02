@@ -1,0 +1,6 @@
+﻿Compilación iniciada a las 08:53 a. m....
+1>------ Operación Compilar iniciada: Proyecto: Valor_absoluto, configuración: Debug x64 ------
+1>Valor_absoluto.cpp
+1>Valor_absoluto.vcxproj -> C:\Users\ALUMNO\source\repos\Valor_absoluto\x64\Debug\Valor_absoluto.exe
+========== Compilación: 1 correcto, 0 erróneo, 0 actualizado, 0 omitido ==========
+========== Compilar completado a las 08:53 a. m. y tardó 00.842 segundos ==========
