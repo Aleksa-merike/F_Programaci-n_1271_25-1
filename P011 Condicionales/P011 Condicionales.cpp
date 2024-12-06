@@ -1,28 +1,44 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
 // Función para adivinar de qué se trata en base a las pistas
 string adivinarDeQueSeTrata(const vector<string>& pistas) {
-    // Aquí se pueden agregar más reglas basadas en las pistas para hacer adivinaciones
-    if (pistas[0].find("vuela") != string::npos && pistas[1].find("aéreo") != string::npos) {
+    // Convertimos las pistas a minúsculas para facilitar la comparación
+    vector<string> pistasLowerCase;
+    for (const auto& pista : pistas) {
+        string temp = pista;
+        transform(temp.begin(), temp.end(), temp.begin(), ::tolower);
+        pistasLowerCase.push_back(temp);
+    }
+
+    // Aquí puedes agregar más reglas o cambiar las condiciones según sea necesario
+    if (find(pistasLowerCase.begin(), pistasLowerCase.end(), "vuela") != pistasLowerCase.end() && 
+        find(pistasLowerCase.begin(), pistasLowerCase.end(), "aéreo") != pistasLowerCase.end()) {
         return "avión";
     }
-    if (pistas[0].find("humano") != string::npos && pistas[1].find("camina") != string::npos) {
+    if (find(pistasLowerCase.begin(), pistasLowerCase.end(), "humano") != pistasLowerCase.end() &&
+        find(pistasLowerCase.begin(), pistasLowerCase.end(), "camina") != pistasLowerCase.end()) {
         return "persona";
     }
-    if (pistas[0].find("tecnología") != string::npos && pistas[1].find("smartphone") != string::npos) {
+    if (find(pistasLowerCase.begin(), pistasLowerCase.end(), "tecnología") != pistasLowerCase.end() &&
+        find(pistasLowerCase.begin(), pistasLowerCase.end(), "smartphone") != pistasLowerCase.end()) {
         return "teléfono inteligente";
     }
-    if (pistas[0].find("grande") != string::npos && pistas[1].find("animal") != string::npos) {
+    if (find(pistasLowerCase.begin(), pistasLowerCase.end(), "grande") != pistasLowerCase.end() &&
+        find(pistasLowerCase.begin(), pistasLowerCase.end(), "animal") != pistasLowerCase.end()) {
         return "elefante";
     }
-    if (pistas[0].find("agua") != string::npos && pistas[1].find("beber") != string::npos) {
+    if (find(pistasLowerCase.begin(), pistasLowerCase.end(), "agua") != pistasLowerCase.end() &&
+        find(pistasLowerCase.begin(), pistasLowerCase.end(), "beber") != pistasLowerCase.end()) {
         return "agua";
     }
-    return "No estoy seguro de lo que estás hablando.";
+
+    // Si no se encuentra ninguna coincidencia, se puede hacer una adivinanza general
+    return "No estoy seguro de lo que estás hablando. ¿Podrías darme más detalles?";
 }
 
 int main() {
