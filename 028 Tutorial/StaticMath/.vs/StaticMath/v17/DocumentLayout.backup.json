@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ALUMNO\\Desktop\\aleks\\StaticMath\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3C827A-8DE7-43ED-A57D-5677D7A4D533}|MathClient\\MathClient.vcxproj|C:\\Users\\ALUMNO\\Desktop\\aleks\\StaticMath\\MathClient\\MathClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1D3C827A-8DE7-43ED-A57D-5677D7A4D533}|MathClient\\MathClient.vcxproj|solutionrelative:MathClient\\MathClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1775CBAD-81AC-4178-8A4A-F728284B4D4A}|MathLibrary\\MathLibrary.vcxproj|C:\\Users\\ALUMNO\\Desktop\\aleks\\StaticMath\\MathLibrary\\MathyLibrary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1775CBAD-81AC-4178-8A4A-F728284B4D4A}|MathLibrary\\MathLibrary.vcxproj|solutionrelative:MathLibrary\\MathyLibrary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1775CBAD-81AC-4178-8A4A-F728284B4D4A}|MathLibrary\\MathLibrary.vcxproj|C:\\Users\\ALUMNO\\Desktop\\aleks\\StaticMath\\MathLibrary\\MathLibrary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1775CBAD-81AC-4178-8A4A-F728284B4D4A}|MathLibrary\\MathLibrary.vcxproj|solutionrelative:MathLibrary\\MathLibrary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MathClient.cpp",
+              "DocumentMoniker": "C:\\Users\\ALUMNO\\Desktop\\aleks\\StaticMath\\MathClient\\MathClient.cpp",
+              "RelativeDocumentMoniker": "MathClient\\MathClient.cpp",
+              "ToolTip": "C:\\Users\\ALUMNO\\Desktop\\aleks\\StaticMath\\MathClient\\MathClient.cpp",
+              "RelativeToolTip": "MathClient\\MathClient.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-10T17:58:53.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MathyLibrary.cpp",
+              "DocumentMoniker": "C:\\Users\\ALUMNO\\Desktop\\aleks\\StaticMath\\MathLibrary\\MathyLibrary.cpp",
+              "RelativeDocumentMoniker": "MathLibrary\\MathyLibrary.cpp",
+              "ToolTip": "C:\\Users\\ALUMNO\\Desktop\\aleks\\StaticMath\\MathLibrary\\MathyLibrary.cpp",
+              "RelativeToolTip": "MathLibrary\\MathyLibrary.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-10T17:54:58.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MathLibrary.h",
+              "DocumentMoniker": "C:\\Users\\ALUMNO\\Desktop\\aleks\\StaticMath\\MathLibrary\\MathLibrary.h",
+              "RelativeDocumentMoniker": "MathLibrary\\MathLibrary.h",
+              "ToolTip": "C:\\Users\\ALUMNO\\Desktop\\aleks\\StaticMath\\MathLibrary\\MathLibrary.h",
+              "RelativeToolTip": "MathLibrary\\MathLibrary.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-10T17:54:00.738Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
